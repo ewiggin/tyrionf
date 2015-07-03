@@ -11,11 +11,9 @@ To define routes, only needs define `$Route` variable on `index.php` file.
 The `$Route` struct is this:
 
 ```
-<?php
 $Route = array(
 	'/awesome-users/' => array(controller => 'controller_name', action => 'action_name')
 );
-?>
 ```
 
 `controller` value is the class_name reference stored on `/controllers` path.
@@ -37,7 +35,6 @@ We recomends, pass view reference with `view_file` key value.
 > HTTP GET 200 /awesome-users/ execute home_controller class `hello()` method.
 
 ```
-<?php
 class home_controller {
 	public function hello(){
 		return array(
@@ -46,7 +43,6 @@ class home_controller {
 		);
 	}
 }
-?>
 ``` 
 Very simple, and easy.
 
@@ -56,7 +52,7 @@ Views are called by Layout file. All controller's return variables are accessibl
 ```
 <p><?=$name?></p>
 ``` 
-> Result: <p>Tyrion Lannister</p>
+> Result: `<p>Tyrion Lannister</p>`
 
 #### What more?
 You can put any question on issues section. This framework is writed in 15 minutes to explain MVC an student. 
