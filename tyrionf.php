@@ -17,10 +17,9 @@ foreach(glob("controllers/*_controller.php") as $dependecy) include $dependecy;
 
 // Get the route to go
 if(!empty($_GET['u'])) $route = $_GET['u'];
-else $route = 'home';
 
 // Prevents 404
-if(!empty($Routes[$route]['controller']) && $Routes[$route]['controller']['action']){
+if(!empty($Routes[$route]['controller']) && !empty($Routes[$route]['controller']['action'])){
 
 	// Call the method's class defined for this route
 	$class_name 	= $Routes[$route]['controller'];
