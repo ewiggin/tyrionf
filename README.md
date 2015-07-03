@@ -21,6 +21,7 @@ $Route = array(
 `action` value is the *method of class_name* reference to execute.
 
 *Can I explain this little more?*
+
 .htaccess file puts all http routes into `$_GET['u']` server variable. Always the route can be accessible. `$Route` index is the url.
 > Example: 
 > `HTTP GET 200 /awesome-users/` route transforms to `Array([u] => [/awesome-users])` on the code. if the $Route index is not defined, show 404.php file.
