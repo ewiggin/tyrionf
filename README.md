@@ -1,6 +1,7 @@
 
 # tyrionf
 > Tyirion Framework. A Very tiny PHP Framework. 
+
 > A PHP Framework into 3Kb
 
 ### Get Started
@@ -16,8 +17,8 @@ $Route = array(
 );
 ```
 
-`controller` value is the class_name reference stored on `/controllers` path.
-`action` value is the method of class_name reference to execute.
+`controller` value is the *class_name* reference stored on `/controllers` path.
+`action` value is the *method of class_name* reference to execute.
 
 *Can I explain this little more?*
 .htaccess file puts all http routes into `$_GET['u']` server variable. Always the route can be accessible. `$Route` index is the url.
@@ -55,4 +56,4 @@ Views are called by Layout file. All controller's return variables are accessibl
 > Result: `<p>Tyrion Lannister</p>`
 
 #### What more?
-You can put any question on issues section. This framework is writed in 15 minutes to explain MVC an student. 
+You can write any question on issues section. This framework is writed in 15 minutes to explain MVC an student. 
