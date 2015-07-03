@@ -1,0 +1,1 @@
+<p><?=$missatge?> axiò es el Home!</p>
