@@ -10,7 +10,6 @@
  * @version 	1.0
  * @since   	Version 1.0
  */
-
 // Your Routes, Your Way
 $Routes = array(
 	'home' 		=> array(controller => 'home_controller', action => "welcome"),

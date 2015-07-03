@@ -35,6 +35,7 @@ else $view_file = '404.php';
 
 ////////////////////// VIEWS ////////////////////////////
 // Include layout with views
-include 'views/layout/default.php';
+if(empty($layout)) $layout = 'default.php'; // default value
+include 'views/layout/'.$layout;
 /////////////////////////////////////////////////////////
 ?>
