@@ -4,10 +4,8 @@
  * An open source application development framework for PHP 4.3.2 or newer
  *
  * @package 	Tyrion Framework
- * @author  	RedCatCode inc.
- * @copyright   Copyright (c) 2015, RedCatCode, Inc.
- * @license 	http://tyrionf.com/user_guide/license.html
- * @link    	http://tyrionf.com
+ * @author  	@ewiggin <gameofender@gmail.com>
+ * @link    	https://github.com/ewiggin/tyrionf/
  * @version 	1.0
  * @since   	Version 1.0
  */
