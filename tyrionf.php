@@ -23,7 +23,7 @@ if(!empty($Routes[$route]['controller']) && !empty($Routes[$route]['action'])){
 	// Call the method's class defined for this route
 	$class_name 	= $Routes[$route]['controller'];
 	$action_name 	= $Routes[$route]['action'];
-	$result_vars 	= call_user_func(array($class_name, $action_name));
+	$result_vars 	= call_user_func(array(new $class_name, $action_name));
 	// Extract all of response variables
 	foreach ($result_vars as $key => $value) {
 		$$key = $value;
