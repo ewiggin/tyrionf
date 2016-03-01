@@ -1,8 +1,8 @@
-
 # tyrionf
-> Tyirion Framework. A Very tiny PHP Framework. 
+> Tyirion Framework. 
+> A Very tiny PHP Framework (3Kb). 
 
-> A PHP Framework into 3Kb
+![alt tyrionf](http://ih1.redbubble.net/image.95172860.2386/sticker,375x360.u2.png)
 
 ### Get Started
 Put all files on your server directory. No needs more!
