@@ -1,4 +1,7 @@
-# tyrionf
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ewiggin/tyrionf/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ewiggin/tyrionf/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ewiggin/tyrionf/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ewiggin/tyrionf/?branch=master)
+tyrionf
+=
 > Tyirion Framework. 
 > A Very tiny PHP Framework (3Kb). 
 
