@@ -31,4 +31,3 @@ class home_controller {
 		);
 	}
 }
-?>
