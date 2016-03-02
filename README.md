@@ -1,5 +1,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ewiggin/tyrionf/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ewiggin/tyrionf/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ewiggin/tyrionf/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ewiggin/tyrionf/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/ewiggin/tyrionf/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ewiggin/tyrionf/build-status/master)
+
 tyrionf
 =
 > Tyirion Framework. 
